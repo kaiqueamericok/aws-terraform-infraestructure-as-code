@@ -1,0 +1,9 @@
+terraform init
+terraform fmt - formata os arquivos
+terraform validate 
+terraform plan
+terraform apply
+
+ssh -i chave-site-prd.pem ec2-user@18.225.223.98
+
+terraform destroy

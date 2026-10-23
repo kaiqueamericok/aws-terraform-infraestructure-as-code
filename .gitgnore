@@ -1,0 +1,19 @@
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+.terraform.lock.hcl
+
+# Credenciais e variáveis sensíveis
+*.tfvars
+*.tfvars.json
+.env
+.aws/
+
+# Chaves privadas
+*.pem
+*.key
